@@ -5,6 +5,7 @@ let serverInitUpObject =  function serverConfig(app) {
         app.use(bodyParser.json({ type: 'application/*+json' }));
         console.log("Server is Setup");
 
+        
 }
 
 
